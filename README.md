@@ -3,6 +3,7 @@ A Demo SOAP Client made by Spring Boot.<br/>
 Free WebService fetched from : <a href="www.webservicex.net">www.webservicex.net</a><br/>
 Used in this project : <a href="http://www.webservicex.net/New/Home/ServiceDetail/56">http://www.webservicex.net/New/Home/ServiceDetail/56</a><br/>
 SOAP WSDL : http://www.webservicex.net/globalweather.asmx?WSDL<br/>
+Project URL : http://localhost:8080/<br/>
 IDE Used : IntelliJ IDEA 2016.2.5<br/><br/>
 <b>Java Version Used :</b> 1.8<br/><br/>
 <b>Dependencies (Maven) :</b><br/>
