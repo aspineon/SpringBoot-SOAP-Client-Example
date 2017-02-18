@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/webjars/bootstrap/3.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/css/myApp.css"/>
+    <script src="/webjars/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8"/>
+    <title>SOAP Client</title>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+
+            <a class="navbar-brand" href="/">Spring Boot - SOAP Client </a>
+        </div>
+
+    </div>
+</nav>
+<div class="container">
+
+    <div class="starter-template">
+
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">Get Cities/ Major Places By Country</h3>
+            </div>
+            <div class="panel-body">
+
+                <form action="/getCities" method="post">
+                    <b>WebService WSDL Address : </b><a href="http://www.webservicex.net/globalweather.asmx?WSDL">http://www.webservicex.net/globalweather.asmx?WSDL</a> <br/><br/>
+                    Country : <input type="text" name="country" class="form-control"/><br/>
+                    <input type="submit" value="Search" class="btn btn-primary"/><br/>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
